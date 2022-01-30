@@ -1,0 +1,332 @@
+{
+    "algorithm":[
+
+        {
+            "name":"FL 1",
+            "image":"img/cube3x3/Beginner/FL/FL 1.svg",
+            "category":["3x3", "Beginner", "FL"],
+            "algorithm":["U R U' R'"],
+            "scramble":"FL x2 R U R' U'"
+        },
+
+        {
+            "name":"FL 2",
+            "image":"img/cube3x3/Beginner/FL/FL 2.svg",
+            "category":["3x3", "Beginner", "FL"],
+            "algorithm":["U' L' U L"],
+            "scramble":"FL x2 y L' U' L U"
+        },
+
+        {
+            "name":"FL 3",
+            "image":"img/cube3x3/Beginner/FL/FL 3.svg",
+            "category":["3x3", "Beginner", "FL"],
+            "algorithm":["R U' R' U y L' U L"],
+            "scramble":"FL x2 R U R' U' R U' R' U2"
+        },
+
+        {
+            "name":"SL 1",
+            "image":"img/cube3x3/Beginner/SL/SL 1.svg",
+            "category":["3x3", "Beginner", "SL"],
+            "algorithm":["( U R U' R' ) y ( U' L' U L ) "],
+            "scramble":"F2L x2 y L' U' L U2 L' U L U2 L' U L y'"
+        },
+
+        {
+            "name":"SL 2",
+            "image":"img/cube3x3/Beginner/SL/SL 2.svg",
+            "category":["3x3", "Beginner", "SL"],
+            "algorithm":["( U' L' U L ) y' ( U R U' R' )"],
+            "scramble":"F2L x2 R U R' U2 R U' R' U2 R U' R' y"
+        },
+
+        {
+            "name":"LL CROSS Dott",
+            "image":"img/cube3x3/Beginner/LL/LL CROSS Dott.svg",
+            "category":["3x3", "Beginner", "LL"],
+            "algorithm":["F ( R U R' U' ) F' f ( R U R' U' ) f'"],
+            "scramble":"FULL x2 F ( R U R' U' ) F' f ( R U R' U' ) f'"
+        },
+
+        {
+            "name":"LL CROSS L",
+            "image":"img/cube3x3/Beginner/LL/LL CROSS L.svg",
+            "category":["3x3", "Beginner", "LL"],
+            "algorithm":["f ( R U R' U' ) f'"],
+            "scramble":"FULL x2 R U R' U R U2 R' U f ( R U R' U' ) ( R U R' U' ) f'"
+        },
+
+        {
+            "name":"LL CROSS I",
+            "image":"img/cube3x3/Beginner/LL/LL CROSS I.svg",
+            "category":["3x3", "Beginner", "LL"],
+            "algorithm":["F ( R U R' U' ) F'"],
+            "scramble":"FULL x2 F R U R' U' R U R' U' F'"
+        },
+
+        {
+            "name":"LL EDGE Permutation",
+            "image":"img/cube3x3/Beginner/LL/LL EDGE Permutation.svg",
+            "category":["3x3", "Beginner", "LL"],
+            "algorithm":["R U R' U R U2 R' U "],
+            "scramble":"FULL x2 R U R' U R U2 R' U "
+        },
+
+        {
+            "name":"LL CORNER Permutation",
+            "image":"img/cube3x3/Beginner/LL/LL CORNER Permutation.svg",
+            "category":["3x3", "Beginner", "LL"],
+            "algorithm":["U R U' L' U R' U' L"],
+            "scramble":"FULL x2 y' R U R' U R U2 R' U R U R' U R U2 R' U U R U' L' U R' U' L y"
+        },
+
+        {
+            "name":"LL CORNER Orientation",
+            "image":"img/cube3x3/Beginner/LL/LL CORNER Orientation.svg",
+            "category":["3x3", "Beginner", "LL"],
+            "algorithm":["R' D' R D R' D' R D"],
+            "scramble":"FULL x2 R' D R D' R' D R D'"
+        },
+
+
+
+        {
+            "name":"I - CROSS",
+            "image":"img/cube3x3/CFOP/OLL/I-Cross.svg",
+            "category":["3x3", "CFOP", "2-look OLL"],
+            "algorithm":["F ( R U R' U' ) F'"],
+            "scramble":"OLL-PLL x2 F R U R' U' R U R' U' F'"
+        },
+        {
+            "name":"I - CROSS (Advanced)",
+            "image":"img/cube3x3/CFOP/OLL/I-Cross.svg",
+            "category":["3x3", "CFOP", "1/2-look OLL"],
+            "algorithm":["No Setup ( R U R' U' ) M' ( U R U' ) r'"],
+            "scramble":"OLL-PLL x2 F R U R' U' R U R' U' F'"
+        },
+
+
+
+        {
+            "name":"L - CROSS",
+            "image":"img/cube3x3/CFOP/OLL/L-Cross.svg",
+            "category":["3x3","CFOP", "2-look OLL"],
+            "algorithm":["f ( R U R' U' ) f'"],
+            "scramble":"OLL-PLL x2 F R U R' U' F' U2"
+        },
+        {
+            "name":"L - CROSS (Advanced)",
+            "image":"img/cube3x3/CFOP/OLL/L-Cross.svg",
+            "category":["3x3","CFOP", "1/2-look OLL"],
+            "algorithm":["U2 Setup r ( U R' U' ) M ( U R U' R' )"],
+            "scramble":"OLL-PLL x2 F R U R' U' F' U2"
+        },
+
+        {
+            "name":"T",
+            "image":"img/cube3x3/CFOP/OLL/T.svg",
+            "category":["3x3","CFOP", "OLL"],
+            "algorithm":["x ( L U R' U' ) ( L' U R U' )","( r U R' U' ) ( r' F R F' )"],
+            "scramble":"OLL-PLL x2 r U R' U' r' F R F' r U R' U' r' F R F'"
+        },
+
+        {
+            "name":"U",
+            "image":"img/cube3x3/CFOP/OLL/U.svg",
+            "category":["3x3","CFOP", "OLL"],
+            "algorithm":["R2 D ( R' U2 R ) D' ( R' U2 R' )"],
+            "scramble":"OLL-PLL x2 R2 D R' u2 R D' R' U2 R D R' u2 R D' R' U2 R'"
+        },
+
+        {
+            "name":"H",
+            "image":"img/cube3x3/CFOP/OLL/H.svg",
+            "category":["3x3", "CFOP","OLL"],
+            "algorithm":["F ( R U R' U' )3 F'"],
+            "scramble":"OLL-PLL x2 F R U R' U' R U R' U' R U R' U' F'"
+        },
+
+        {
+            "name":"Pi",
+            "image":"img/cube3x3/CFOP/OLL/Pi.svg",
+            "category":["3x3", "CFOP","OLL"],
+            "algorithm":["R U2 ( R2 U' R2 U' R2 ) U2 R"],
+            "scramble":"OLL-PLL x2 R U2 ( R2 U' R2 U' R2 ) U2 R"
+        },
+
+        {
+            "name":"Sune",
+            "image":"img/cube3x3/CFOP/OLL/Sune.svg",
+            "category":["3x3", "CFOP","OLL"],
+            "algorithm":["R U R' U R U2 R'"],
+            "scramble":"OLL-PLL x2 L' U' L U' L' U2 L"
+        },
+
+        {
+            "name":"Antisune",
+            "image":"img/cube3x3/CFOP/OLL/Antisune.svg",
+            "category":["3x3","CFOP", "OLL"],
+            "algorithm":["L' U' L U' L' U2 L"],
+            "scramble":"OLL-PLL x2 R U R' U R U2 R'"
+        },
+
+        {
+            "name":"L",
+            "image":"img/cube3x3/CFOP/OLL/L.svg",
+            "category":["3x3", "CFOP","OLL"],
+            "algorithm":["x ( R' U R D' ) ( R' U' R D )"],
+            "scramble":""
+        },
+
+        {
+            "name":"Aa-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Aa-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["x L2 D2 ( L' U' L ) D2 ( L' U L' )"],
+            "scramble":""
+        },
+
+        {
+            "name":"Ab-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Ab-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["x' L2 D2 ( L U L' ) D2 ( L U' L )"],
+            "scramble":""
+        },
+
+        {
+            "name":"F-Perm",
+            "image":"img/cube3x3/CFOP/PLL/F-Perm.svg",
+            "category":["3x3","CFOP", "PLL"],
+            "algorithm":["R' U' F' ( R U R' U' ) R' F R2 U' ( R' U' R U ) R' U R"],
+            "scramble":""
+        },
+
+        {
+            "name":"Ja-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Ja-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["x R2 F R F' R U2 r' U r U2"],
+            "scramble":""
+        },
+
+        {
+            "name":"Jb-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Jb-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["R U R' F' ( R U R' U' ) R' F R2 U' R'"],
+            "scramble":""
+        },
+
+        {
+            "name":"Ra-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Ra-Perm.svg",
+            "category":["3x3","CFOP", "PLL"],
+            "algorithm":["R U' R' U' R U R D R' U' R D' R' U2 R'"],
+            "scramble":""
+        },
+
+        {
+            "name":"Rb-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Rb-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["R2 F R U R U' R' F' R U2 R' U2 R"],
+            "scramble":""
+        },
+
+        {
+            "name":"Na-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Na-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["R U R' U R U R' F' ( R U R' U' R' ) F R2 U' R' U2 R U' R'"],
+            "scramble":""
+        },
+
+        {
+            "name":"Nb-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Nb-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["R' U R U' R' F' U' F R U R' F R' F' R U' R"],
+            "scramble":""
+        },
+
+        {
+            "name":"Ua-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Ua-Perm.svg",
+            "category":["3x3","CFOP","PLL"],
+            "algorithm":["M2 U ( M U2 M' ) U M2"],
+            "scramble":""
+        },
+
+        {
+            "name":"Ua-Perm BLOCK",
+            "image":"img/cube3x3/CFOP/PLL/Ua-Perm Block.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["M2 U ( M U2 M' ) U M2"],
+            "scramble":""
+        },
+
+        {
+            "name":"Ub-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Ub-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["( R2 U ) ( R U ) R' U' R' U' ( R' U R' )"],
+            "scramble":""
+        },
+
+        {
+            "name":"E-Perm",
+            "image":"img/cube3x3/CFOP/PLL/E-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["x' L' U L D' L' U' L D L' U' L D' L' U L D"],
+            "scramble":""
+        },
+
+        {
+            "name":"Y-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Y-Perm.svg",
+            "category":["3x3","CFOP", "PLL"],
+            "algorithm":["F ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R ) F'"],
+            "scramble":""
+        },
+
+        {
+            "name":"T-Perm",
+            "image":"img/cube3x3/CFOP/PLL/T-Perm.svg",
+            "category":["3x3","CFOP", "PLL"],
+            "algorithm":["( R U R' U' ) ( R' F ) ( R2 U' R' U' ) ( R U R' F' )"],
+            "scramble":""
+        },
+
+        {
+            "name":"H-Perm",
+            "image":"img/cube3x3/CFOP/PLL/H-Perm.svg",
+            "category":["3x3","CFOP", "PLL"],
+            "algorithm":["M2 U' M2 U2 M2 U' M2"],
+            "scramble":""
+        },
+
+        {
+            "name":"V-Perm",
+            "image":"img/cube3x3/CFOP/PLL/V-Perm.svg",
+            "category":["3x3","CFOP", "PLL"],
+            "algorithm":["R' U R' U' y R' F' R2 U' R' U R' F R F"],
+            "scramble":""
+        },
+
+        {
+            "name":"Z-Perm",
+            "image":"img/cube3x3/CFOP/PLL/Z-Perm.svg",
+            "category":["3x3", "CFOP","PLL"],
+            "algorithm":["M' U' M2 U' M2 U' M' U2 M2"],
+            "scramble":""
+        }
+
+
+
+
+
+
+    ]
+}

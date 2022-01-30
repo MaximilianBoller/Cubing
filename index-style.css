@@ -1,0 +1,172 @@
+body,
+html{
+    margin: 0;
+    background-color: #F1F1F1;
+}
+
+.CubeEditor{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 3;
+    height: calc(100vh - 2.5rem);
+    background-color: #F1F1F1;
+}
+
+
+
+
+.Viewer{
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+}
+.algorithmStep{
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 2rem);
+    background: rgba(0,0,0,0.4);
+    margin: .5rem;
+    padding: .5rem;
+    color: white;
+    text-align: center;
+}
+
+#scramble-textview{
+    position: absolute;
+    top: 4rem;
+    width: calc(100% - 2rem);
+    background: rgba(0,0,0,0.4);
+    margin: .5rem;
+    padding: .5rem;
+    color: white;
+    text-align: center;
+}
+
+#scrambleButton{
+    position: absolute;
+    top: 2.7rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cube-type{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.algTextSection{
+    display: flex;
+    flex-direction: column;
+}
+.controlButton{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 8;
+    justify-items: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.controlPanel{
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: none;
+    min-height: 100%;
+    width: fit-content;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alg-panel{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.algCard{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: none;
+    border: solid black 1px;
+    align-items: center;
+    margin: .5rem;
+}
+
+.algCardImage{
+    height: 3rem;
+    width: 3rem;
+}
+.algName{
+    padding: .5rem;
+}
+.algorithm{
+    padding: .5rem;
+    background-color: black;
+    color: white;
+}
+
+
+.searchbarWithButton{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    height: fit-content;
+}
+
+.last-searched-section{
+    height: fit-content;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    .CubeEditor{
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: none;
+    }
+}
+
+
+
+.nav{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+
+}
+
+
+
+.logo{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: .5rem;
+}
