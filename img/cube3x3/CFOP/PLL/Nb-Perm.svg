@@ -1,0 +1,28 @@
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.4646 283.4646"><defs><style>.cls-1{fill:#fff;stroke:#1d1d1b;stroke-miterlimit:10;stroke-width:4px;}.cls-2{fill:#1d1d1b;}</style></defs><title>Nb-Perm</title>
+    
+    <g id="blank">
+        <rect class="cls-1" x="56.6929" y="56.6929" width="56.6929" height="56.6929"/>
+        <rect class="cls-1" x="113.3858" y="56.6929" width="56.6929" height="56.6929"/>
+        <rect class="cls-1" x="170.0787" y="56.6929" width="56.6929" height="56.6929"/>
+        <rect class="cls-1" x="56.6929" y="113.3858" width="56.6929" height="56.6929"/>
+        <rect class="cls-1" x="113.3858" y="113.3858" width="56.6929" height="56.6929"/>
+        <rect class="cls-1" x="170.0787" y="113.3858" width="56.6929" height="56.6929"/>
+        <rect class="cls-1" x="56.6929" y="170.0787" width="56.6929" height="56.6929"/>
+        <rect class="cls-1" x="113.3858" y="170.0787" width="56.6929" height="56.6929"/>
+        <rect class="cls-1" x="170.0787" y="170.0787" width="56.6929" height="56.6929"/>
+    </g>
+
+    <g id="edge">
+        <rect class="cls-2" x="24.0945" y="194.1732" width="45.3543" height="8.5039" transform="translate(245.1969 151.6535) rotate(90)"/>
+        <rect class="cls-2" x="62.3622" y="232.441" width="45.3543" height="8.5039"/>
+        <rect class="cls-2" x="119.0551" y="232.441" width="45.3543" height="8.5039"/>
+        <rect class="cls-2" x="214.0158" y="80.7874" width="45.3543" height="8.5039" transform="translate(151.6535 321.7323) rotate(-90)"/>
+        <rect class="cls-2" x="175.748" y="42.5197" width="45.3543" height="8.5039" transform="translate(396.8504 93.5433) rotate(180)"/>
+        <rect class="cls-2" x="119.0551" y="42.5197" width="45.3543" height="8.5039" transform="translate(283.4646 93.5433) rotate(180)"/>
+    </g>
+
+    <g id="arrow">
+        <polygon class="cls-2" points="207.516 203.507 79.957 75.948 90.709 65.197 65.197 65.197 65.197 90.709 75.948 79.957 203.507 207.516 192.756 218.268 218.268 218.268 218.268 192.756 207.516 203.507"/>
+        <polygon class="cls-2" points="218.268 141.934 215.433 139.099 215.433 138.898 215.232 138.898 198.324 121.99 198.324 138.898 85.039 138.898 85.039 121.89 65.197 141.732 85.039 161.575 85.039 144.567 198.324 144.567 198.324 161.877 218.268 141.934"/>
+    </g>
+</svg>
