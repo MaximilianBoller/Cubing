@@ -1,7 +1,4 @@
 
-
-
-
 .button{
     padding: 0.5rem 1rem;
     margin: 0.5rem;
@@ -13,8 +10,6 @@
     text-decoration: none;
     height: fit-content;
 }
-
-
 
 .button:hover{
     cursor: pointer;
@@ -34,12 +29,14 @@
     text-align: center;
     text-decoration: none;
 }
+
 .turnFaceButton:hover{
     cursor: pointer;
     background-color: darkgray;
     border: solid black 1px;
     color: black;
 }
+
 .pink{
     background-color:pink;
 }
@@ -47,6 +44,7 @@
 .blue{
     background-color: aquamarine;
 }
+
 .yellow{
     background-color:rgb(255, 255, 82);
 }
@@ -67,9 +65,6 @@
     background-color: rgb(75, 75, 255);
 }
 
-
-
-
 .pinn-button{
     height: 2rem;
     width: 2rem; 
@@ -89,15 +84,13 @@
     margin: 1rem;
     text-decoration: none;
 }
+
 .call-to-action-button:hover{
 
     cursor: pointer;
     background-color: black;
     color: white;
 }
-
-
-
 
 .chips{
     display: block;
@@ -118,9 +111,6 @@ background-color: black;
 color: white;
 }
 
-
-
-
 .header-nav-button{
 
     padding: 0.5rem 1rem;
@@ -137,11 +127,6 @@ color: white;
     background-color: var(--action);
     color: white;
 }
-
-
-
-
-
 
 .iconButtonWithText{
     display: grid;
@@ -165,6 +150,7 @@ color: white;
     border: solid black 1px;
     background: rgba(0,0,0,0.4);
 }
+
 .icon-button:hover,
 .iconButtonWithText:hover{
     background: rgba(0,0,0,0.6);
