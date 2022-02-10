@@ -1,0 +1,179 @@
+
+
+
+
+.button{
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    border: black solid 1px;
+    text-align: center;
+    text-decoration: none;
+    height: fit-content;
+}
+
+
+
+.button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    border: solid black 1px;
+    color: black;
+}
+
+.turnFaceButton{
+    padding: .5rem .5rem;
+    margin: .5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+    color: black;
+    border: black solid 1px;
+    text-align: center;
+    text-decoration: none;
+}
+.turnFaceButton:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    border: solid black 1px;
+    color: black;
+}
+.pink{
+    background-color:pink;
+}
+
+.blue{
+    background-color: aquamarine;
+}
+.yellow{
+    background-color:rgb(255, 255, 82);
+}
+
+.white{
+    background-color:lightcyan ;
+}
+
+.red{
+    background-color: rgb(255, 62, 62);
+}
+
+.green{
+    background-color: rgb(108, 255, 108);
+}
+
+.darkblue{
+    background-color: rgb(75, 75, 255);
+}
+
+
+
+
+.pinn-button{
+    height: 2rem;
+    width: 2rem; 
+    background-color: black;
+    border-radius: 100%;
+}
+
+.call-to-action-button{
+    display: block;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    border: gray solid 1px;
+    text-align: center;
+    border-radius: 10rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+.call-to-action-button:hover{
+
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.chips{
+    display: block;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 10rem;
+    margin: .5rem 0.5rem;
+    text-decoration: none;
+    border: solid black 1px;
+}
+
+.chips:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+}
+
+
+
+
+.header-nav-button{
+
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    width: fit-content;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-nav-button:hover{
+    cursor: pointer;
+    background-color: var(--action);
+    color: white;
+}
+
+
+
+
+
+
+.iconButtonWithText{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: fit-content;
+    align-items: center;
+    border: solid black 1px;
+    background: rgba(0,0,0,0.4);
+    height: fit-content;
+    margin: .5rem;
+}
+.iconButtonWithText > div{
+    color: white;
+    padding: .5rem;
+}
+
+.icon-button{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: .5rem;
+    border: solid black 1px;
+    background: rgba(0,0,0,0.4);
+}
+.icon-button:hover,
+.iconButtonWithText:hover{
+    background: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.iconForButton{
+    height: 1.5rem;
+    width: 1.5rem;
+
+    padding: .5rem;
+}

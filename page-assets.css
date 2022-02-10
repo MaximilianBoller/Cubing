@@ -1,0 +1,131 @@
+/*
+PAGE ASSETS:
+This css file styles php pages that get loaded into the webpage
+
+PAGE:
+A PAGE consists of a HEADER with icon and headline and a BODY with content.
+
+SECTION:
+The body of the PAGE can contain SECTIONS with a HEADER and the BODY
+*/
+
+/* PAGE */
+
+
+.page{
+    background-color:  transparent;
+    color: white;
+    height: 100vh;
+}
+
+/* PAGE - HEADER*/
+.page-header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+
+
+}
+.page-header-headline{
+    color: black;
+    margin: .5rem;
+}
+.page-header-icon{
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem;
+
+}
+
+/* PAGE - BODY */
+.page-body{
+    
+    background-color: transparent;
+    overflow: hidden;
+    background-color: darkgray;
+    height: 100vh;
+    overflow: hidden;
+    /*border: solid var(--background-black) .5rem;*/
+}
+
+.page-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: .5rem;
+    row-gap: .5rem;
+    padding: .5rem;
+}
+
+
+
+
+/*BODY - SECTION*/
+
+.section-body{
+    padding: .5rem;
+    color: white;
+}
+.section-headline{
+    color: lightgray;
+    padding: .5rem;
+    margin: .5rem;
+    display: block;
+
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    padding: .5rem;
+}
+
+
+
+
+
+
+
+
+.page-searchbar{
+    font-size: 1rem;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.page-searchbar-input{
+    margin: .5rem;
+    font-size-adjust: 1rem;
+    padding: .5rem;
+}
+
+
+.page-searchbar-input:hover,
+.page-searchbar-input:focus{
+    outline: none;
+}
+
+.page-searchbar-icon{
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem .5rem .5rem 0rem;
+    background-color: white;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+
+    .page-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 3;
+    }
+
+    .page-layout-without-info{
+        grid-template-columns: 0px 1fr;
+    }
+
+    .page-layout-with-info{
+        grid-template-columns: 1fr 3fr;
+    }
+}

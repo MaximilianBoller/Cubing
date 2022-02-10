@@ -1,0 +1,8 @@
+.timerContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.timeSection{
+    padding: 10rem;
+}
