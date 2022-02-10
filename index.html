@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="x-UA-Compatible" content="ie=edge" />
+        <title>Cubing Trainer</title>
+
+        <link rel="stylesheet" href="index-style.css">
+        <link rel="stylesheet" href="font.css">
+        <link rel="stylesheet" href="assets.css">
+        <link rel="stylesheet" href="button.css">
+        <link rel="stylesheet" href="page-assets.css">
+        <link rel="stylesheet" href="timer.css">
+        <link rel="stylesheet" href="algorithmCard-style.css">
+
+        
+        
+
+        <style>
+            body{
+                margin: 0;
+            }
+            canvas{
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <section class = "header">
+            <div class="wrapper">
+                <section class = "nav">
+                    <img class = "logo" src = "img/logo.svg" href="index.html">
+                    <div id = "sub-nav" class = "subtitle-1">
+                        Cubing Trainer
+                    </div>
+
+                </section>
+            </div>
+        </section>
+
+
+        <section class="wrapper">
+                    <section class="CubeEditor">
+                        <div class = "Viewer" id = "3DViewer">
+
+                            <div class="buttonCollection">
+                                <div class="iconButtonWithText">
+                                    <img src="2x/scramble-icon.png" class="iconForButton" id = "scramble-button">
+                                    <div>Scramble</div>
+                                </div>
+                                <div class="iconButtonWithText">
+                                    <img src="2x/reset-icon.png" class="iconForButton" id = "reset-button">
+                                    <div>Reset</div>
+                                </div>
+                                <div class="iconButtonWithText" id = "get-solve-button">
+                                    <div>Get Solve</div>
+                                </div>
+                                <div class="iconButtonWithText" id = "read-U-button">
+                                    <div>ReadUFace</div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="algorithmStep subtitle-1" id = "algorithmStep">Algorithm Step</div>
+                            <div class="subtitle-1" id="scramble-textview">Scramble</div>
+
+                        </div>
+                        <div class = "controlPanel">
+                        
+                            <section class = "cube-type">
+                                <img src="img/button/full-icon.png" class="icon-button" id = "cube-type-full">
+                                <img src="img/button/fl-icon.png" class="icon-button" id = "cube-type-fl">
+                                <img src="img/button/f2l-icon.png" class="icon-button" id = "cube-type-f2l">
+                                <img src="img/button/oll-pll-icon.png" class="icon-button" id = "cube-type-oll-pll">
+                            </section>
+                            <div class ="button" id = "alg-overlay-button">Alg Overlay</div>
+
+
+
+
+                            <input type="range" min = "1" max = "8" value = "5" id = "animationSpeedRangeSlider">
+                            <section class="controlButton">
+
+                                <div id = "turnuPrime" class="turnFaceButton pink">u'</div>
+                                <div id = "turnUPrime" class="turnFaceButton pink">U'</div>
+                                <div></div>
+                                <div id = "turnU" class="turnFaceButton pink">U</div>
+                                <div id = "turnu" class="turnFaceButton pink">u</div>
+        
+                                <div></div>
+                                <div id = "turnfPrime" class="turnFaceButton blue">f'</div>
+                                <div></div>
+                                <div id = "turnf" class="turnFaceButton blue">f</div>
+                                <div></div>
+        
+                                <div></div>
+                                <div id = "turnFPrime" class="turnFaceButton blue">F'</div>
+                                <div></div>
+                                <div id = "turnF" class="turnFaceButton blue">F</div>
+                                <div></div>
+        
+                                <div id = "turnlPrime" class="turnFaceButton yellow">l'</div>
+                                <div id = "turnLPrime" class="turnFaceButton yellow">L'</div>
+                                <div id = "turnM" class="turnFaceButton white">M</div>
+                                <div id = "turnR" class="turnFaceButton yellow">R</div>
+                                <div id = "turnr" class="turnFaceButton yellow">r</div>
+        
+                                <div id = "turnSPrime" class="turnFaceButton white">S'</div>
+                                <div id = "turnEPrime" class="turnFaceButton white">E'</div>
+                                <div></div>
+                                <div id = "turnE" class="turnFaceButton white">E</div>
+                                <div id = "turnS" class="turnFaceButton white">S</div>
+        
+                                <div id = "turnl" class="turnFaceButton yellow">l</div>
+                                <div id = "turnL" class="turnFaceButton yellow">L</div>
+                                <div id = "turnMPrime" class="turnFaceButton white">M'</div>
+                                <div id = "turnRPrime" class="turnFaceButton yellow">R'</div>
+                                <div id = "turnrPrime" class="turnFaceButton yellow">r'</div>
+        
+                                <div></div>
+                                <div id = "turnB" class="turnFaceButton blue">B</div>
+                                <div></div>
+                                <div id = "turnBPrime" class="turnFaceButton blue">B'</div>
+                                <div></div>
+                                
+                                <div></div>
+                                <div id = "turnb" class="turnFaceButton blue">b</div>
+                                <div></div>
+                                <div id = "turnbPrime" class="turnFaceButton blue">b'</div>
+                                <div></div>
+        
+                                <div id = "turndPrime" class="turnFaceButton pink">d'</div>
+                                <div id = "turnDPrime" class="turnFaceButton pink">D'</div>
+                                <div></div>
+                                <div id = "turnD" class="turnFaceButton pink">D</div>
+                                <div id = "turnd" class="turnFaceButton pink">d</div>
+        
+                            </section>
+        
+                            <section class="controlButton">
+        
+                                <div id = "turnx" class="turnFaceButton red">x</div>
+                                <div></div>
+                                <div id = "turny" class="turnFaceButton green">y</div>
+                                <div></div>
+                                <div id = "turnz" class="turnFaceButton darkblue">z</div>
+        
+                                <div id = "turnxPrime" class="turnFaceButton red">x'</div>
+                                <div></div>
+                                <div id = "turnyPrime" class="turnFaceButton green">y'</div>
+                                <div></div>
+                                <div id = "turnzPrime" class="turnFaceButton darkblue">z'</div>
+        
+        
+        
+                            </section>
+        
+                            <div class = "algTextSection">
+                                <div class="searchbarWithButton">
+                                    <input id = "algText" type="text" class = "input-field">
+                                    <button id = "doAlg" class ="button">do Alg</button>
+                                </div>
+
+                            </div>
+        
+                        </div>
+
+                        <section class="alg-panel">
+                            <div class = "searchbarWithButton">
+                                <input id = "search-algorithm" type="text" class = "input-field">
+                                <button id = "search-button" class ="button">Search</button>
+                            </div>
+                            <div class = "last-searched-section" id = "last-searched">
+                                Last Searches
+                            </div>
+                            <div class="alg-grid" id="alg-grid">
+                                Algorithm
+                            </div>
+                        </section>
+
+                        
+                    </section>
+
+
+
+
+
+
+
+
+
+
+        <script src="three.js"></script>
+        <script type="module" src="SVGLoader.js"></script>
+        <script type="module" src="GLTFLoader.js"></script>
+        <script type="module" src="OrbitControls.js"></script>
+ 
+        <script type="module" src="mirrorPlanes.js"></script>
+        <script type="module" src="cubeArray.js"></script>
+        <script type="module" src="cubeAI.js"></script>
+        <script type="module" src="main.js"></script>
+
+
+        <script type="module" src="loadAlgorithm.js"></script>
+        <script type="module" src="loadSVGTest.js"></script>
+
+        <script src="timer.js"></script>
+
+
+    
+    
+    
+    
+    </body>
+</html>
